@@ -1,1 +1,18 @@
 A repository of projects and starter files for CS330
+
+# For miniapp
+
+## Install node
+### On a Mac
+- Install a package manager like brew: https://brew.sh  
+- Open Terminal on a Mac
+  - Install Node: `brew install node`
+  - Then go to the miniapp folder/directory and run `npm install`
+  - `npm install` read the package.json directory and installs the relevant packages
+  - Now, run `npx nodemon app.js` to run the server and go to `https:\\locahost:3000` in a browser of your choice 
+
+### On a Windows PC 
+- Go to https://nodejs.org/en to install Node using the nodeJS installer
+- Then open up Powershell or Command line 
+  - Go to the miniapp folder/directory and run `npm install`
+  - Now, run `npx nodemon app.js` to run the server and go to `https:\\locahost:3000` in a browser of your choice

@@ -1,0 +1,21 @@
+{
+  "album": "Yosemite",
+  "description": "Collection made in March 2019",
+  "photos":
+    [
+      {
+        "label": "Dawn Wall",
+        "filename": "d_wall.webp",
+        "date": "03/09/2019",
+        "credit": "Mitchell Cipriano",
+        "alt": "shows the dawn wall in Yosemite during sunrise"
+      },
+      {
+        "label": "Climber on Dawn Wall",
+        "filename": "d_wall_climb.webp",
+        "date": "03/10/2019",
+        "credit": "",
+        "alt": "a man is lead climbing the dawn wall in Yosemite's El Capitan, and the valley floor with it's forest can be seen below"
+      }
+    ]
+}

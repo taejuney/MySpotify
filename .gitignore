@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+#remove package-lock.json
+package-lock.json
+
+#remove IDEA code editor files
+.idea/
