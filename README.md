@@ -1,6 +1,6 @@
 A repository of projects and starter files for CS330
 
-First download the cs330 folder
+First download the cs330 folder, either using the "Download Zip" option or running `git clone https://github.com/Amartya/cs330.git` in Terminal (Mac) or Command Line / Powershell on Windows.
 
 # For miniapp
 
