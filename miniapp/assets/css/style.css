@@ -46,3 +46,38 @@ section{
   font-weight: 600;
 }
 
+/*placeholder sample css*/
+#overlay{
+  position: fixed;
+  display: flex;
+  background-color: rgba(100, 100, 100, 0.25);
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+}
+
+.info{
+  display: inline-block;
+  position: relative;
+  background-color: rgb(235, 235, 236);
+  border-radius: 7px;
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 8px 20px 15px 20px;
+  height: auto;
+  max-height: 500px;
+  width: 525px;
+}
+
+.show{
+  visibility: visible;
+}
+
+.hide{
+  visibility: hidden;
+}

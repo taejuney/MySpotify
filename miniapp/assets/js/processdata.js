@@ -48,8 +48,13 @@ function loadPhotos(url){
         figure.append(photo);
         figure.append(caption);
         photoList.append(figure);
-      }
 
+        //adding the event handler for each figure
+        figure.addEventListener("click", (event) => {
+          //event.target object has information about which element triggered the event
+          console.log(event.target.src);
+        });
+      }
       root.prepend(albumName);
     });
 }
@@ -75,6 +80,12 @@ function loadMusic(url){
         figure.append(photo);
         figure.append(caption);
         root.append(figure);
+
+        //adding the event handler for each figure
+        figure.addEventListener("click", (event) => {
+          //event.target object has information about which element triggered the event
+          console.log(event.target.src);
+        });
       }
     });
 }
@@ -82,3 +93,12 @@ function loadMusic(url){
 loadPhotos(photoURL);
 
 loadMusic(musicURL);
+
+// example of changing a url and getting data from a public API (Art Inst. of Chicago in this case)
+const artURL = "https://api.artic.edu/api/v1/artworks?fields=id,title,artist_display,date_display,main_reference_number";
+getData(artURL).then((mydata) =>
+{
+  // console.log(mydata);
+});
+
+
