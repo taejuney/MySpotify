@@ -5,6 +5,7 @@
 
 const music = require('./assets/json/music.json');
 const photos = require('./assets/json/photos.json');
+const tracks = require('./assets/json/tracks.json');
 
 const express = require('express');
 const app = express();
@@ -33,6 +34,15 @@ app.get('/photo-data', (req, res) => {
 app.get('/music-data', (req, res) => {
   res.json(music);
 });
+
+app.get('/playlist', function (req, res) {
+  res.render('playlist.html');
+});
+
+app.get('/tracks', (req, res) => {
+    res.json(tracks);
+});
+
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);

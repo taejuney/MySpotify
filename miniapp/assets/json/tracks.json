@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "bad",
+        "album": "0.1 flaws and all",
+        "duration": "3:56"
+    },
+    {
+        "id": 2,
+        "title": "calla",
+        "album": "wave 0.01",
+        "duration": "4:03"
+    },
+    {
+        "id": 3,
+        "title": "ocean blue",
+        "album": "0.1 flaws and all",
+        "duration": "4:37"
+    },
+    {
+        "id": 4,
+        "title": "chamberlain",
+        "album": "0.1 flaws and all",
+        "duration": "4:13"
+    },
+    {
+        "id": 5,
+        "title": "flower",
+        "album": "wave 0.01",
+        "duration": "5:19"
+    },
+    {
+        "id": 6,
+        "title": "seasons",
+        "album": "summer flows 0.02",
+        "duration": "4:22"
+    },
+    {
+        "id": 7,
+        "title": "love is all around",
+        "album": "the blink of an eye",
+        "duration": "4:48"
+    },
+    {
+        "id": 8,
+        "title": "new",
+        "album": "0.1 flaws and all",
+        "duration": "5:08"
+    },
+    {
+        "id": 9,
+        "title": "caramel",
+        "album": "summer flows 0.02",
+        "duration": "4:26"
+    },
+    {
+        "id": 10,
+        "title": "dreaming",
+        "album": "the blink of an eye",
+        "duration": "5:05"
+    }
+]
